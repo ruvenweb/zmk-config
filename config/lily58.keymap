@@ -18,6 +18,11 @@
             bindings = <&mmv MOVE_UP>;
             key-positions = <13 14>;
         };
+
+        combo_alt_f4 {
+            bindings = <&kp LA(F4)>;
+            key-positions = <25 26>;
+        };
     };
 
     keymap {
