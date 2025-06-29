@@ -15,7 +15,7 @@
         compatible = "zmk,combos";
 
         testcombo {
-            bindings = <&mmv MOVE_UP>;
+            bindings = <&tog3>;
             key-positions = <13 14>;
         };
 
