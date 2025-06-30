@@ -104,11 +104,11 @@
 
         layer_4 {
             bindings = <
-&tog 0     &mkp LCLK   &mmv MOVE_DOWN  &trans            &trans      &trans                    &trans  &trans          &trans          &trans           &trans  &trans
-&kp G      &kp C_MUTE  &kp C_PREV      &kp C_PLAY_PAUSE  &kp C_NEXT  &trans                    &trans  &to 0           &mmv MOVE_UP    &trans           &trans  &trans
-&kp LCTRL  &trans      &trans          &trans            &trans      &trans                    &trans  &mmv MOVE_LEFT  &mkp MCLK       &mmv MOVE_RIGHT  &trans  &trans
-&trans     &trans      &trans          &trans            &trans      &trans  &trans    &trans  &trans  &mkp LCLK       &mmv MOVE_DOWN  &mkp RCLK        &trans  &trans
-                                       &trans            &trans      &tog 1  &trans    &trans  &trans  &trans          &tog 4
+&tog 0     &mkp LCLK   &mmv MOVE_DOWN  &trans            &trans      &trans                    &trans  &trans          &mkp MCLK       &trans           &trans  &trans
+&kp G      &kp C_MUTE  &kp C_PREV      &kp C_PLAY_PAUSE  &kp C_NEXT  &trans                    &to 0   &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &trans  &trans
+&kp LCTRL  &trans      &trans          &trans            &trans      &trans                    &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
+&trans     &trans      &trans          &trans            &trans      &trans  &trans    &trans  &trans  &trans          &trans          &trans           &trans  &trans
+                                       &trans            &trans      &trans  &trans    &trans  &trans  &trans          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
