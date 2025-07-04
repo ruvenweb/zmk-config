@@ -44,7 +44,7 @@
 
             bindings = <
 &mt GRAVE ESC                &kp N1  &kp N2  &kp N3    &kp N4    &kp N5                         &kp N6       &kp N7         &kp N8      &kp N9   &kp N0    &kp MINUS
-&mt Q TAB                    &kp Q   &kp W   &kp E     &kp R     &kp T                          &kp Y        &kp U          &kp I       &kp O    &kp P     &kp LBKT
+&mt Q TAB                    &lt 5 Q   &kp W   &kp E     &kp R     &kp T                          &kp Y        &kp U          &kp I       &kp O    &kp P     &kp LBKT
 &kp LEFT_SHIFT   &kp A   &kp S   &kp D     &kp F     &kp G                          &kp H        &kp J          &kp K       &kp L    &kp SEMI  &kp SQT
 &mt LCTRL DE_LESS_THAN                    &kp Z   &kp X   &kp C     &kp V     &kp B   &trans       &kp RBKT  &kp N        &kp M          &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
                                              &kp LGUI  &kp LALT  &mo 1   &kp ENTER    &mo 5     &lt 2 SPACE  &kp BACKSPACE  &kp DELETE
