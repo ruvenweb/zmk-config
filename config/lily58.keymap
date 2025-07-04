@@ -111,23 +111,5 @@
                                        &trans            &trans      &trans  &trans    &trans  &trans  &trans          &trans
             >;
         };
-        layer_5 {
-            bindings = <
-&trans      &trans      &trans      &trans  &trans  &trans                   &trans      &trans         &trans      &trans  &trans  &trans 
-&trans      &trans      &trans      &trans  &trans  &trans                   &trans      &trans         &trans      &trans  &trans  &trans 
-&trans      &trans      &trans      &trans  &trans  &trans                   &trans      &kp INSERT     &kp HOME    &kp PAGE_UP    &trans  &trans 
-&trans      &trans      &trans      &trans  &trans  &trans  &trans   &trans  &trans      &kp DELETE     &kp END     &kp PAGE_DOWN  &trans  &trans 
-                                    &trans  &trans  &trans  &trans   &trans  &trans      &trans         &trans
-            >;
-        };
-        layer_empty {
-            bindings = <
-&trans      &tran6      &trans      &trans  &trans  &trans                   &trans      &trans         &trans      &trans  &trans  &trans 
-&trans      &trans      &trans      &trans  &trans  &trans                   &trans      &trans         &trans      &trans  &trans  &trans 
-&trans      &trans      &trans      &trans  &trans  &trans                   &trans      &trans         &trans      &trans  &trans  &trans 
-&trans      &trans      &trans      &trans  &trans  &trans  &trans   &trans  &trans      &trans         &trans      &trans  &trans  &trans 
-                                    &trans  &trans  &trans  &trans   &trans  &trans      &trans         &trans
-            >;
-        };
-    };
+t    };
 };
